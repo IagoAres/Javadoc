@@ -10,6 +10,7 @@ public class Main {
         int num = sc.nextInt();
         int fact = ejercicios.ejer1_Factorial(num);
         int sum = ejercicios.ejer2_Sumatorio(num);
+        System.out.println("Resultados:"+fact+" "+sum);
         System.out.println(fact);
         System.out.print(sum);
     }

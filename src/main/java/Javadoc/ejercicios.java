@@ -31,7 +31,7 @@ public class ejercicios {
         return sumatorio;
     }
 
-    static void ejer3_Divisores() {
+    public static void ejer3_Divisores() {
         int num = 10;
         System.out.println("Los divisores de " + num + "son:");
         for (int i = 1; i <= num; i++) {
